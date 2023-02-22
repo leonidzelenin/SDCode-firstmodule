@@ -73,6 +73,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*----------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Manrope;
   font-size: 18px;
@@ -202,8 +206,10 @@ h1 {
   width: 255px;
   height: 67px;
   background-color: #AD1818;
-  color: white;
   border-radius: 5px;
+}
+.btn button a {
+  color: white;
   font-size: 20px;
   line-height: 27px;
 }
@@ -227,7 +233,7 @@ h1 {
 }
 
 .bigbtn button {
-  margin: 90px 0 0 0;
+  margin: 90px 0 150px 0;
   width: 1150px;
   height: 153px;
   border-radius: 5px;
@@ -243,7 +249,7 @@ h1 {
 }
 
 .darkspace {
-  margin: 150px 0 0 0;
+  margin: 0 0 0 0;
   padding: 151px 0 0 0;
   background-color: #000;
   color: white;
