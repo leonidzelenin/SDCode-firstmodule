@@ -1,0 +1,221 @@
+<!--Сообщаем браузеру как стоит обрабатывать эту страницу-->
+<!DOCTYPE html>
+<!--Оболочка документа, указываем язык содержимого-->
+<html lang="ru">
+
+<head>
+   <!--Заголовок страницы в браузере-->
+   <title>Project</title>
+   <!--Кодировка страницы-->
+   <meta charset="UTF-8">
+   <!--------------------------------------------------------------------------->
+   <!--Настройки адаптивности страницы-->
+   <!--Фиксированная ширина (ширину берем из дизайн макета)-->
+   <!--<meta name="viewport" content="width=1170">
+   <!-Адаптивность-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+   <!--Отключает формирование ссылки у номера телефона на iOS-->
+   <meta name="format-detection" content="telephone=no">
+   <!--Краткое описание страницы (в свойстве content="пишем до 140 символов, о чем страница")-->
+   <meta name="description" content="-------------">
+   <!--Ключевые слова страницы (не больше 20 слов)-->
+   <meta name="keywords" content="-------------">
+   <!--------------------------------------------------------------------------->
+   <!--Управление доступом поисковых роботов к странице-->
+   <!--<meta name="robots" content="">
+   <!-Запрет индексации страницы полностью-->
+   <meta name="robots" content="none">
+   <!--Автор страницы-->
+   <meta name="Autor" content="-------------">
+   <!--Авторские права-->
+   <meta name="Copyright" content="-------------">
+   <!--Адрес автора-->
+   <meta name="Address" content="-------------">
+   <!--------------------------------------------------------------------------->
+   <!--Редирект (перезагрузка) страницы-->
+   <!--Задержка в секундах; url=Адрес сайта/страницы-->
+   <meta http-equiv="refresh" content="; url=index.html">
+   <!--------------------------------------------------------------------------->
+   <!-- локализация сайта, для русскоязычного сайта ru_RU -->
+   <meta property="og:locale" content="ru_RU">
+   <!-- тип контента, по умолчанию используется article -->
+   <meta property="og:type" content="article">
+   <!-- заголовок страницы, который будет выводится в записи социальной сети -->
+   <meta property="og:title" content="-------------">
+   <!-- описание страницы -->
+   <meta property="og:description" content="-------------">
+   <!-- ссылка на изображение, которое будет публиковаться в записи -->
+   <meta property="og:image" content="-------------">
+   <!-- ссылка на текущую страницу -->
+   <meta property="og:url" content="-------------">
+   <!-- название сайта -->
+   <meta property="og:site_name" content="-------------">
+   <!--------------------------------------------------------------------------->
+   <!--Ссылка на файл стилей CSS-->
+   <link rel="stylesheet" href="Source/scss/index.css">
+</head>
+
+<!--Отображаемое тело страницы-->
+
+<body>
+   <div class="header">
+      <div class="container">
+         <div class="header__container">
+            <div class="header__logo">
+               <img src="Img/logo/01.svg" alt="Метрика Лого">
+            </div>
+            <div class="header__menu">
+               <a href="#"><span>О нас</span></a>
+               <a href="#"><span>Проекты</span></a>
+               <a href="#"><span>Услуги</span></a>
+               <a href="#"><span>Контакты</span></a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="main">
+      <div class="whitespace">
+         <div class="container">
+            <h1>Современные и стильные<br>интерьеры для комфортной жизни</h1>
+            <div class="picture">
+               <img src="Img/content/01.png" alt="">
+               <div class="picture__text">
+                  <p>
+                     Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией
+                     дизайн-проектов
+                  </p>
+               </div>
+            </div>
+            <div class="cards">
+               <div class="white__subtitle">
+                  <p>О нас</p>
+               </div>
+               <div class="cards__text">
+                  <p>
+                     Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам
+                     обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для
+                     каждого интерьера, вплоть до каждой детали — нацелены на результат.
+                  </p>
+               </div>
+               <div class="btn">
+                  <button>Посмотреть услуги</button>
+               </div>
+               <div class="white__subtitle">
+                  <p>Проекты</p>
+               </div>
+               <div class="image">
+                  <img src="Img/content/02.png" alt="">
+               </div>
+               <div class="description">
+                  <p>ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
+               </div>
+               <a href="#">Подробнее →</a>
+               <div class="image__box">
+                  <img src="Img/content/03.png" alt="">
+               </div>
+               <div class="description">
+                  <p>ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
+               </div>
+               <a href="#">Подробнее →</a>
+               <div class="image__box">
+                  <img src="Img/content/04.png" alt="">
+               </div>
+               <div class="description">
+                  <p>ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
+               </div>
+               <a href="#">Подробнее →</a>
+               <div class="bigbtn">
+                  <button>Смотреть все проекты</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="darkspace">
+         <div class="container">
+            <div class="dark__subtitle">
+               <p>Услуги</p>
+            </div>
+            <div class="projectbox__container">
+               <div class="projectbox">
+                  <div class="progectimage">
+                     <img src="Img/content/05.png" alt="">
+                  </div>
+                  <div class="projecdescription">
+                     <p>
+                        Планировочное решение — от 2500₽/м²
+                     </p>
+                  </div>
+               </div>
+               <div class="projectbox">
+                  <div class="progectimage">
+                     <img src="Img/content/06.png" alt="">
+                  </div>
+                  <div class="projecdescription">
+                     <p>
+                        Дизайн-проект — от 3000₽/м²
+                     </p>
+                  </div>
+               </div>
+               <div class="projectbox">
+                  <div class="progectimage">
+                     <img src="Img/content/07.png" alt="">
+                  </div>
+                  <div class="projecdescription">
+                     <p>
+                        Авторский надзор — от 30 000₽ в месяц
+                     </p>
+                  </div>
+               </div>
+               <div class="projectbox">
+                  <div class="progectimage">
+                     <img src="Img/content/08.png" alt="">
+                  </div>
+                  <div class="projecdescription">
+                     <p>
+                        Комплектация — 5% от стоимости спецификации
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="bigpicture">
+            <img src="Img/content/09.png" alt="">
+            <div class="bigpicture__text">
+               <p>
+                  Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж
+               </p>
+            </div>
+         </div>
+      </div>
+
+   </div>
+   <div class="footer">
+      <div class="container">
+         <div class="footer__contact">
+            <img src="img/logo/02.svg" alt="">
+            <p>Контакты</p>
+            <div class="connection">
+               <p><a href="tel:+79358954535">+7 935 895-45-35</a></p>
+               <p><a href="mailto:hello@mail.com">hello@mail.com</a></p>
+            </div>
+         </div>
+      </div>
+      <div class="footer__footer">
+         <div class="footermenu">
+            <a href="#"><span>О нас</span></a>
+            <a href="#"><span>Проекты</span></a>
+            <a href="#"><span>Услуги</span></a>
+            <a href="#"><span>Контакты</span></a>
+         </div>
+         <div class="footercopyrights">
+            <p>
+               студия дизайна интерьера Метрика — 2023
+            </p>
+         </div>
+      </div>
+
+   </div>
+</body>
+
+
+</html>
