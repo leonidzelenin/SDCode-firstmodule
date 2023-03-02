@@ -78,6 +78,7 @@ html {
 
 body {
   margin: 0 auto;
+  max-width: 1400px;
   font-family: Manrope;
   font-size: 18px;
   line-height: 25px;
