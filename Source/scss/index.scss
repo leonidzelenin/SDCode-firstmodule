@@ -24,7 +24,6 @@ body {
 .header {
    margin: 0 auto;
    max-width: 100vw;
-   height: 60px;
    background-color: #fff;
 }
 .header__container {
@@ -94,6 +93,7 @@ h1 {
 .main__cards {
    margin: 150px 0 0 0;
    a {
+      display: block;
       margin: 15px 0 0 0;
       font-size: 20px;
       line-height: 27px;
