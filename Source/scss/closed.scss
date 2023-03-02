@@ -1,22 +1,8 @@
-//Подключение шрифта через препроцессор
+
 @import url(https://fonts.googleapis.com/css?family=Manrope:regular);
 
-// Файл обнуляющих стилей
 @import "nullindex.scss";
 
-// Переменные
-//$fz:80px;
-//$color_1:#14046d;
-
-// Шаблоны, для приминения вводи @extend
-//%tplborder {border-bottom: 3px dashed red;}
-
-// Миксин, для применения вводи @include
-//@mixin fontz($f, $c){
-//   font-size: $f;
-//   color: $c;
-//}
-//------------------------------------------
 html {
    scroll-behavior: smooth;
 }
@@ -158,9 +144,11 @@ body {
 .title {
    margin: 0 0 25px 0;
    font-size: 34px;
+   text-decoration: underline;
 }
 .text {
-   font-size: 16px;
+   font-size: 20px;
+   color: #474747;
 }
 .containerright {
    display: flex;
