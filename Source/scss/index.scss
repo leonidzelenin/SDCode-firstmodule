@@ -147,19 +147,22 @@ h1 {
    line-height: 41px;
    color: #121212;
 }
-.main__cards-bigbtn a button{
+.main__cards-bigbtn .btn{
    margin: 90px 0 150px 0;
-   width: 1150px;
-   height: 153px;
-   font-size: 30px;
-   line-height: 41px;
-   background-color: transparent;
-   color:#AD1818;
    border: 1px solid #AD1818;
    border-radius: 5px;
-   &:hover {
-      background-color: #AD1818;
-      color: white;
+   button {
+      width: 1150px;
+      height: 153px;
+      font-size: 30px;
+      line-height: 41px;
+      background-color: transparent;
+      color:#AD1818;
+      transition: all 0.5s ease 0s;
+      &:hover {
+         background-color: #AD1818;
+         color: white;
+      }
    }
 }
 
