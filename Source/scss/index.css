@@ -125,9 +125,10 @@ body {
 .header__container-menu a {
   margin: 0 58px 0 0;
   color: #121212;
+  transition: opacity 0.5s ease 0s;
 }
-.header__container-menu a:first-child {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+.header__container-menu a:hover {
+  border-bottom: 1px solid rgb(0, 0, 0);
   opacity: 0.5;
 }
 .header__container-menu a:last-child {
@@ -190,19 +191,19 @@ h1 {
   color: #AD1818;
 }
 
-.project__cards .card__image {
+.projects__container .project__image {
   margin: 90px 0 0 0;
 }
-.project__cards .card__image-start {
+.projects__container .project__image-start {
   margin: 30px 0 0 0;
 }
 
-.card__subtitle {
+.cards__subtitle {
   margin: 150px 0 0 0;
   text-transform: uppercase;
   color: #121212;
 }
-.card__subtitle :first-child {
+.cards__subtitle :first-child {
   margin-top: 0;
 }
 
@@ -237,12 +238,12 @@ h1 {
   color: #121212;
 }
 
-.main__cards-bigbtn .btn {
+.projects__bigbtn .btn {
   margin: 90px 0 150px 0;
   border: 1px solid #AD1818;
   border-radius: 5px;
 }
-.main__cards-bigbtn .btn button {
+.projects__bigbtn .btn button {
   width: 1150px;
   height: 153px;
   font-size: 30px;
@@ -252,7 +253,7 @@ h1 {
   color: #AD1818;
   transition: all 0.5s ease 0s;
 }
-.main__cards-bigbtn .btn button:hover {
+.projects__bigbtn .btn button:hover {
   background-color: #AD1818;
   color: white;
 }
@@ -260,35 +261,37 @@ h1 {
 .darkspace {
   margin: 0 0 0 0;
   padding: 151px 0 0 0;
-  background-color: #000;
+  background-color: #121212;
   color: white;
 }
-.darkspace .main__services-projectbox-container .main__services-projectbox:first-child {
+.darkspace .cards__subtitle {
+  margin: 0 0 34px 3px;
+  color: #fff;
+}
+.darkspace .services__container .services__item:first-child {
   margin: 0 0 0 0;
 }
-.darkspace .main__services-projectbox-container .main__services-projectbox:last-child {
+.darkspace .services__container .services__item:last-child {
   padding: 0 0 150px 0;
 }
-
-.main__services-subtitle-dark p {
-  margin: 0 0 34px 3px;
-  text-transform: uppercase;
-}
-
-.main__services-projectbox {
+.darkspace .services__item {
   margin: 60px 0 0 0;
 }
-
-.main__services-projectbox-image img {
+.darkspace .services__image img {
   max-width: 1150px;
   max-height: 270px;
 }
-
-.main__services-projectbox-description {
+.darkspace .description {
   margin: 15px 0 0 4px;
-  font-size: 30px;
-  line-height: 41px;
-  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.transition__left-onepx {
+  margin: 0 0 0 1px;
+}
+
+.transition__left-twopx {
+  margin: 0 0 0 2px;
 }
 
 .background {
@@ -338,7 +341,7 @@ h1 {
   margin: 10px 0 0 0;
 }
 
-.footer__contacts-connection {
+.contacts__connection {
   margin: 32px 0 0 0;
   font-size: 60px;
   line-height: 60px;
@@ -346,21 +349,21 @@ h1 {
   display: block;
   position: relative;
 }
-.footer__contacts-connection a {
+.contacts__connection a {
   margin: 30px 0 0 0;
   color: #121212;
 }
-.footer__contacts-connection p {
+.contacts__connection p {
   display: block;
 }
-.footer__contacts-connection p:last-child {
+.contacts__connection p:last-child {
   margin: 30px 0 0 0;
   display: inline-block;
   position: relative;
   text-transform: lowercase;
   opacity: 0.5;
 }
-.footer__contacts-connection p:last-child ::after {
+.contacts__connection p:last-child ::after {
   content: "";
   width: 406px;
   height: 2px;
@@ -375,31 +378,34 @@ h1 {
 }
 
 .footer__footer {
-  background-color: #000;
+  background-color: #121212;
 }
 
-.footer-menu {
+.footer__menu {
   margin: 160px 0 0 0;
   padding: 60px 0 0 0;
   width: 100%;
   text-align: center;
   text-transform: uppercase;
 }
-.footer-menu :nth-child(2) {
+.footer__menu :nth-child(2) {
   margin: 0 56px 0 0;
 }
-.footer-menu :nth-child(3) {
+.footer__menu :nth-child(3) {
   margin: 0 55px 0 0;
 }
-.footer-menu a {
+.footer__menu a {
+  transition: opacity 0.5s ease 0s;
   color: #fff;
 }
-.footer-menu a:first-child {
+.footer__menu a:first-child {
   margin: 0 52px 0 -5px;
+}
+.footer__menu a:hover {
   opacity: 0.5;
 }
 
-.footer-copyrights {
+.footer__copyrights {
   margin: 87px 0 0 0;
   padding: 0 0 30px 7px;
   text-align: center;
@@ -408,6 +414,6 @@ h1 {
   letter-spacing: -0.03em;
   color: #fff;
 }
-.footer-copyrights p {
+.footer__copyrights p {
   opacity: 0.5;
 }/*# sourceMappingURL=index.css.map */
